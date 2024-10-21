@@ -1,0 +1,2 @@
+/Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-ar qc libmain.a CMakeFiles/__idf_main.dir/app_main.c.obj
+/Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-ranlib libmain.a

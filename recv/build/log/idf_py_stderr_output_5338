@@ -1,0 +1,8 @@
+/Users/kkz/6_sotsuken/recv/main/app_main.c: In function 'wifi_init':
+/Users/kkz/6_sotsuken/recv/main/app_main.c:41:5: warning: 'esp_wifi_config_espnow_rate' is deprecated: This API can be only used when rate is non-HE rate,                                 please use esp_now_set_peer_rate_config if you want full support of the rate. [-Wdeprecated-declarations]
+   41 |     ESP_ERROR_CHECK(esp_wifi_config_espnow_rate(ESP_IF_WIFI_STA, WIFI_PHY_RATE_MCS0_SGI));
+      |     ^~~~~~~~~~~~~~~
+In file included from /Users/kkz/6_sotsuken/recv/main/app_main.c:20:
+/Users/kkz/esp-idf/components/esp_wifi/include/esp_now.h:270:11: note: declared here
+  270 | esp_err_t esp_wifi_config_espnow_rate(wifi_interface_t ifx, wifi_phy_rate_t rate)
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~

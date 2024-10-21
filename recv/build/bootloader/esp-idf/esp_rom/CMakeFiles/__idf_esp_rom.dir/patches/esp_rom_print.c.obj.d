@@ -1,0 +1,31 @@
+esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.obj: \
+ /Users/kkz/esp-idf/components/esp_rom/patches/esp_rom_print.c \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/13.2.0/include/stdint.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/stdint.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/machine/_default_types.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/features.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/_newlib_version.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/_intsup.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/_stdint.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/13.2.0/include/stdbool.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/13.2.0/include/stdarg.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/13.2.0/include/stddef.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/param.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/config.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/machine/ieeefp.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/machine/endian.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/cdefs.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/_types.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/newlib.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/machine/_types.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/machine/_endian.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/machine/param.h \
+ /Users/kkz/esp-idf/components/esp_rom/esp32c3/esp_rom_caps.h \
+ /Users/kkz/esp-idf/components/esp_rom/include/esp_rom_sys.h \
+ /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/inttypes.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/_ansi.h \
+ /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/_locale.h \
+ /Users/kkz/esp-idf/components/soc/esp32c3/include/soc/reset_reasons.h \
+ /Users/kkz/esp-idf/components/esp_rom/esp32c3/include/esp32c3/rom/ets_sys.h

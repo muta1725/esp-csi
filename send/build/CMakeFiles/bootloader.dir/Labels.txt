@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/kkz/6_sotsuken/send/build/CMakeFiles/bootloader
+/Users/kkz/6_sotsuken/send/build/CMakeFiles/bootloader.rule
+/Users/kkz/6_sotsuken/send/build/CMakeFiles/bootloader-complete.rule
+/Users/kkz/6_sotsuken/send/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/kkz/6_sotsuken/send/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/kkz/6_sotsuken/send/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/kkz/6_sotsuken/send/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/kkz/6_sotsuken/send/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/kkz/6_sotsuken/send/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/kkz/6_sotsuken/send/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
