@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/recv
+CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/esp-csi/recv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build
 
 # Utility rule file for uf2.
 
@@ -67,7 +67,7 @@ include CMakeFiles/uf2.dir/compiler_depend.make
 include CMakeFiles/uf2.dir/progress.make
 
 CMakeFiles/uf2:
-	cd /Users/kkz/esp-idf/components/esptool_py && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -D IDF_PATH=/Users/kkz/esp-idf -D "SERIAL_TOOL=/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python;/Users/kkz/esp-idf/tools/mkuf2.py;write;--chip;esp32c3" -D "SERIAL_TOOL_ARGS=--json;/Users/kkz/6_sotsuken/recv/build/flasher_args.json;-o;/Users/kkz/6_sotsuken/recv/build/uf2.bin" -P run_serial_tool.cmake
+	cd /Users/kkz/esp-idf/components/esptool_py && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -D IDF_PATH=/Users/kkz/esp-idf -D "SERIAL_TOOL=/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python;/Users/kkz/esp-idf/tools/mkuf2.py;write;--chip;esp32c3" -D "SERIAL_TOOL_ARGS=--json;/Users/kkz/6_sotsuken/esp-csi/recv/build/flasher_args.json;-o;/Users/kkz/6_sotsuken/esp-csi/recv/build/uf2.bin" -P run_serial_tool.cmake
 
 uf2: CMakeFiles/uf2
 uf2: CMakeFiles/uf2.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/uf2.dir/clean:
 .PHONY : CMakeFiles/uf2.dir/clean
 
 CMakeFiles/uf2.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/recv /Users/kkz/6_sotsuken/recv /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build/CMakeFiles/uf2.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles/uf2.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uf2.dir/depend
 

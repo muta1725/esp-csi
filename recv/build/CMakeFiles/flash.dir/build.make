@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/recv
+CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/esp-csi/recv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build
 
 # Utility rule file for flash.
 
@@ -67,7 +67,7 @@ include CMakeFiles/flash.dir/compiler_depend.make
 include CMakeFiles/flash.dir/progress.make
 
 CMakeFiles/flash:
-	cd /Users/kkz/esp-idf/components/esptool_py && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -D IDF_PATH=/Users/kkz/esp-idf -D "SERIAL_TOOL=/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python;;/Users/kkz/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32c3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/Users/kkz/6_sotsuken/recv/build -P /Users/kkz/esp-idf/components/esptool_py/run_serial_tool.cmake
+	cd /Users/kkz/esp-idf/components/esptool_py && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -D IDF_PATH=/Users/kkz/esp-idf -D "SERIAL_TOOL=/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python;;/Users/kkz/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32c3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/Users/kkz/6_sotsuken/esp-csi/recv/build -P /Users/kkz/esp-idf/components/esptool_py/run_serial_tool.cmake
 
 flash: CMakeFiles/flash
 flash: CMakeFiles/flash.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/flash.dir/clean:
 .PHONY : CMakeFiles/flash.dir/clean
 
 CMakeFiles/flash.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/recv /Users/kkz/6_sotsuken/recv /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build/CMakeFiles/flash.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles/flash.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/flash.dir/depend
 

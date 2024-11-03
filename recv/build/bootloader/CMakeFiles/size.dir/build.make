@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/kkz/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build/bootloader
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader
 
 # Utility rule file for size.
 
@@ -67,7 +67,7 @@ include CMakeFiles/size.dir/compiler_depend.make
 include CMakeFiles/size.dir/progress.make
 
 CMakeFiles/size: bootloader.map
-	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -D "IDF_SIZE_TOOL=/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python;-m;esp_idf_size" -D MAP_FILE=/Users/kkz/6_sotsuken/recv/build/bootloader/bootloader.map -D OUTPUT_JSON= -P /Users/kkz/esp-idf/tools/cmake/run_size_tool.cmake
+	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -D "IDF_SIZE_TOOL=/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python;-m;esp_idf_size" -D MAP_FILE=/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/bootloader.map -D OUTPUT_JSON= -P /Users/kkz/esp-idf/tools/cmake/run_size_tool.cmake
 
 size: CMakeFiles/size
 size: CMakeFiles/size.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/size.dir/clean:
 .PHONY : CMakeFiles/size.dir/clean
 
 CMakeFiles/size.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/6_sotsuken/recv/build/bootloader /Users/kkz/6_sotsuken/recv/build/bootloader /Users/kkz/6_sotsuken/recv/build/bootloader/CMakeFiles/size.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/size.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/size.dir/depend
 

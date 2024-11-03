@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/recv
+CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/esp-csi/recv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build
 
 # Utility rule file for encrypted-app-flash.
 
@@ -67,9 +67,9 @@ include esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/compiler_depend.ma
 include esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/progress.make
 
 esp-idf/esptool_py/CMakeFiles/encrypted-app-flash:
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/esptool_py && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo "Error: The target encrypted-app-flash requires"
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/esptool_py && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo "CONFIG_SECURE_FLASH_ENCRYPTION_MODE_DEVELOPMENT to be enabled."
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/esptool_py && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -P /Users/kkz/esp-idf/tools/cmake/scripts/fail.cmake
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esptool_py && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo "Error: The target encrypted-app-flash requires"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esptool_py && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo "CONFIG_SECURE_FLASH_ENCRYPTION_MODE_DEVELOPMENT to be enabled."
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esptool_py && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -P /Users/kkz/esp-idf/tools/cmake/scripts/fail.cmake
 
 encrypted-app-flash: esp-idf/esptool_py/CMakeFiles/encrypted-app-flash
 encrypted-app-flash: esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/build.make
@@ -80,10 +80,10 @@ esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/build: encrypted-app-flash
 .PHONY : esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/build
 
 esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/clean:
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/esptool_py && $(CMAKE_COMMAND) -P CMakeFiles/encrypted-app-flash.dir/cmake_clean.cmake
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esptool_py && $(CMAKE_COMMAND) -P CMakeFiles/encrypted-app-flash.dir/cmake_clean.cmake
 .PHONY : esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/clean
 
 esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/recv /Users/kkz/esp-idf/components/esptool_py /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build/esp-idf/esptool_py /Users/kkz/6_sotsuken/recv/build/esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/esp-idf/components/esptool_py /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esptool_py /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/depend
 

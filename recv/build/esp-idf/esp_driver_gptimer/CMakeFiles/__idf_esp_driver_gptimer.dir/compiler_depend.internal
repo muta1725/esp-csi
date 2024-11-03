@@ -43,7 +43,7 @@ esp-idf/esp_driver_gptimer/CMakeFiles/__idf_esp_driver_gptimer.dir/src/gptimer.c
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -166,7 +166,7 @@ esp-idf/esp_driver_gptimer/CMakeFiles/__idf_esp_driver_gptimer.dir/src/gptimer_c
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h

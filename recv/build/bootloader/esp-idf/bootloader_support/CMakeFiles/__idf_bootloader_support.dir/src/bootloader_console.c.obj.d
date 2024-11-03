@@ -1,6 +1,6 @@
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj: \
  /Users/kkz/esp-idf/components/bootloader_support/src/bootloader_console.c \
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h \
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h \
  /Users/kkz/esp-idf/components/bootloader_support/private_include/bootloader_console.h \
  /Users/kkz/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
  /Users/kkz/esp-idf/components/soc/include/soc/uart_periph.h \

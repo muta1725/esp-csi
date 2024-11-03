@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/recv
+CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/esp-csi/recv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build
 
 # Utility rule file for confserver.
 
@@ -67,8 +67,8 @@ include CMakeFiles/confserver.dir/compiler_depend.make
 include CMakeFiles/confserver.dir/progress.make
 
 CMakeFiles/confserver:
-	/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python /Users/kkz/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /Users/kkz/6_sotsuken/recv/build/config.env
-	/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python -m kconfserver --env-file /Users/kkz/6_sotsuken/recv/build/config.env --kconfig /Users/kkz/esp-idf/Kconfig --sdkconfig-rename /Users/kkz/esp-idf/sdkconfig.rename --config /Users/kkz/6_sotsuken/recv/sdkconfig
+	/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python /Users/kkz/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /Users/kkz/6_sotsuken/esp-csi/recv/build/config.env
+	/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python -m kconfserver --env-file /Users/kkz/6_sotsuken/esp-csi/recv/build/config.env --kconfig /Users/kkz/esp-idf/Kconfig --sdkconfig-rename /Users/kkz/esp-idf/sdkconfig.rename --config /Users/kkz/6_sotsuken/esp-csi/recv/sdkconfig
 
 confserver: CMakeFiles/confserver
 confserver: CMakeFiles/confserver.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/confserver.dir/clean:
 .PHONY : CMakeFiles/confserver.dir/clean
 
 CMakeFiles/confserver.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/recv /Users/kkz/6_sotsuken/recv /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build/CMakeFiles/confserver.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles/confserver.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/confserver.dir/depend
 

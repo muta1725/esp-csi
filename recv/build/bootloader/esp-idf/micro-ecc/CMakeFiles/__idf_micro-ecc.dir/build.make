@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/kkz/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build/bootloader
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader
 
 # Include any dependencies generated for this target.
 include esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/depend.make
@@ -72,16 +72,16 @@ include esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/flags.make
 esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj: esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/flags.make
 esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj: /Users/kkz/esp-idf/components/bootloader/subproject/components/micro-ecc/uECC_verify_antifault.c
 esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj: esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kkz/6_sotsuken/recv/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj"
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader/esp-idf/micro-ecc && /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj -MF CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj.d -o CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj -c /Users/kkz/esp-idf/components/bootloader/subproject/components/micro-ecc/uECC_verify_antifault.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/micro-ecc && /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj -MF CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj.d -o CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj -c /Users/kkz/esp-idf/components/bootloader/subproject/components/micro-ecc/uECC_verify_antifault.c
 
 esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.i"
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader/esp-idf/micro-ecc && /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kkz/esp-idf/components/bootloader/subproject/components/micro-ecc/uECC_verify_antifault.c > CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.i
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/micro-ecc && /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kkz/esp-idf/components/bootloader/subproject/components/micro-ecc/uECC_verify_antifault.c > CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.i
 
 esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.s"
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader/esp-idf/micro-ecc && /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kkz/esp-idf/components/bootloader/subproject/components/micro-ecc/uECC_verify_antifault.c -o CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.s
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/micro-ecc && /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kkz/esp-idf/components/bootloader/subproject/components/micro-ecc/uECC_verify_antifault.c -o CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.s
 
 # Object files for target __idf_micro-ecc
 __idf_micro__ecc_OBJECTS = \
@@ -93,19 +93,19 @@ __idf_micro__ecc_EXTERNAL_OBJECTS =
 esp-idf/micro-ecc/libmicro-ecc.a: esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj
 esp-idf/micro-ecc/libmicro-ecc.a: esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/build.make
 esp-idf/micro-ecc/libmicro-ecc.a: esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kkz/6_sotsuken/recv/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libmicro-ecc.a"
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader/esp-idf/micro-ecc && $(CMAKE_COMMAND) -P CMakeFiles/__idf_micro-ecc.dir/cmake_clean_target.cmake
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader/esp-idf/micro-ecc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_micro-ecc.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libmicro-ecc.a"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/micro-ecc && $(CMAKE_COMMAND) -P CMakeFiles/__idf_micro-ecc.dir/cmake_clean_target.cmake
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/micro-ecc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_micro-ecc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/build: esp-idf/micro-ecc/libmicro-ecc.a
 .PHONY : esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/build
 
 esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/clean:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader/esp-idf/micro-ecc && $(CMAKE_COMMAND) -P CMakeFiles/__idf_micro-ecc.dir/cmake_clean.cmake
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/micro-ecc && $(CMAKE_COMMAND) -P CMakeFiles/__idf_micro-ecc.dir/cmake_clean.cmake
 .PHONY : esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/clean
 
 esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/esp-idf/components/bootloader/subproject/components/micro-ecc /Users/kkz/6_sotsuken/recv/build/bootloader /Users/kkz/6_sotsuken/recv/build/bootloader/esp-idf/micro-ecc /Users/kkz/6_sotsuken/recv/build/bootloader/esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/esp-idf/components/bootloader/subproject/components/micro-ecc /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/micro-ecc /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/depend
 

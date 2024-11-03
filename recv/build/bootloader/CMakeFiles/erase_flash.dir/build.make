@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/kkz/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build/bootloader
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader
 
 # Utility rule file for erase_flash.
 
@@ -82,6 +82,6 @@ CMakeFiles/erase_flash.dir/clean:
 .PHONY : CMakeFiles/erase_flash.dir/clean
 
 CMakeFiles/erase_flash.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/6_sotsuken/recv/build/bootloader /Users/kkz/6_sotsuken/recv/build/bootloader /Users/kkz/6_sotsuken/recv/build/bootloader/CMakeFiles/erase_flash.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/erase_flash.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/erase_flash.dir/depend
 

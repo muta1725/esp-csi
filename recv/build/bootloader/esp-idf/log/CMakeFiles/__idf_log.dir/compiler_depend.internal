@@ -43,7 +43,7 @@ esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/timespec.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/types.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/time.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/log/include/esp_log_timestamp.h
  /Users/kkz/esp-idf/components/log/include/esp_private/log_timestamp.h
  /Users/kkz/esp-idf/components/log/include/esp_private/log_util.h
@@ -79,7 +79,7 @@ esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/features.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/log/include/esp_private/log_lock.h
  /Users/kkz/esp-idf/components/newlib/platform_include/assert.h
  /Users/kkz/esp-idf/components/newlib/platform_include/sys/lock.h
@@ -119,7 +119,7 @@ esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h

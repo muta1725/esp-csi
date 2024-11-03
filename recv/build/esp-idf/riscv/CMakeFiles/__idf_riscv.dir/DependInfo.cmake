@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/Users/kkz/esp-idf/components/riscv/vectors.S" "/Users/kkz/6_sotsuken/recv/build/esp-idf/riscv/CMakeFiles/__idf_riscv.dir/vectors.S.obj"
-  "/Users/kkz/esp-idf/components/riscv/vectors_intc.S" "/Users/kkz/6_sotsuken/recv/build/esp-idf/riscv/CMakeFiles/__idf_riscv.dir/vectors_intc.S.obj"
+  "/Users/kkz/esp-idf/components/riscv/vectors.S" "/Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/riscv/CMakeFiles/__idf_riscv.dir/vectors.S.obj"
+  "/Users/kkz/esp-idf/components/riscv/vectors_intc.S" "/Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/riscv/CMakeFiles/__idf_riscv.dir/vectors_intc.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 

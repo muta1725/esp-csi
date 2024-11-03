@@ -38,7 +38,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -113,7 +113,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal_common.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -180,7 +180,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_oneshot_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -247,7 +247,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/aes_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/hal/esp32c3/include/hal/aes_ll.h
@@ -274,7 +274,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/brownout_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/_intsup.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/_stdint.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/features.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/esp_hw_support/include/esp_private/regi2c_ctrl.h
  /Users/kkz/esp-idf/components/esp_rom/include/esp_rom_regi2c.h
@@ -319,7 +319,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -353,7 +353,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/color_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/_intsup.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/_stdint.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/features.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/hal/include/hal/color_hal.h
  /Users/kkz/esp-idf/components/hal/include/hal/color_types.h
  /Users/kkz/esp-idf/components/hal/platform_port/include/hal/assert.h
@@ -386,7 +386,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/ds_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/hal/esp32c3/include/hal/ds_ll.h
@@ -438,7 +438,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -486,7 +486,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32c3/clk_tree_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/features.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/esp_hw_support/include/esp_private/regi2c_ctrl.h
@@ -560,7 +560,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32c3/efuse_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -607,7 +607,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32c3/rtc_cntl_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/queue.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -653,7 +653,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_ahb_v1.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/features.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/hal/esp32c3/include/hal/gdma_ll.h
@@ -696,7 +696,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_top.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/features.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/hal/include/hal/gdma_hal.h
  /Users/kkz/esp-idf/components/hal/include/hal/gdma_types.h
  /Users/kkz/esp-idf/components/hal/platform_port/include/hal/assert.h
@@ -731,7 +731,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/gpio_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/features.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/hal/esp32c3/include/hal/gpio_ll.h
@@ -763,7 +763,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/_intsup.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/_stdint.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/features.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/hal/include/hal/hal_utils.h
  /Users/kkz/esp-idf/components/hal/platform_port/include/hal/assert.h
 
@@ -798,7 +798,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/hmac_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/hal/esp32c3/include/hal/hmac_ll.h
@@ -842,7 +842,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -896,7 +896,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal_iram.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -950,7 +950,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/i2s_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/hal/esp32c3/include/hal/i2s_ll.h
@@ -1000,7 +1000,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/features.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/esp_rom/include/esp_rom_sys.h
@@ -1048,7 +1048,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal_iram.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/features.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/esp_rom/include/esp_rom_sys.h
@@ -1102,7 +1102,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1156,7 +1156,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/mpi_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/hal/esp32c3/include/hal/mpi_ll.h
@@ -1204,7 +1204,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/rmt_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/hal/esp32c3/include/hal/rmt_ll.h
@@ -1250,7 +1250,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/sdm_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/hal/esp32c3/include/hal/sdm_ll.h
  /Users/kkz/esp-idf/components/hal/include/hal/sdm_hal.h
  /Users/kkz/esp-idf/components/hal/platform_port/include/hal/assert.h
@@ -1289,7 +1289,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/sha_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/queue.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/esp_rom/esp32c3/include/esp32c3/rom/ets_sys.h
@@ -1337,7 +1337,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_encrypt_hal_iram.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/hal/esp32c3/include/hal/spi_flash_encrypted_ll.h
@@ -1389,7 +1389,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1466,7 +1466,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_gpspi.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1545,7 +1545,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_iram.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1621,7 +1621,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1695,7 +1695,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal_iram.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1759,7 +1759,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/queue.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1820,7 +1820,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal_iram.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/queue.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1884,7 +1884,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hd_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1949,7 +1949,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/systimer_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/param.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/hal/esp32c3/include/hal/systimer_ll.h
@@ -1994,7 +1994,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/hal/esp32c3/include/hal/timer_ll.h
@@ -2040,7 +2040,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/esp_rom/esp32c3/include/esp32c3/rom/efuse.h
@@ -2097,7 +2097,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal_iram.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/hal/esp32c3/include/hal/twai_ll.h
@@ -2146,7 +2146,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -2195,7 +2195,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal_iram.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -2244,7 +2244,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_serial_jtag_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -2290,7 +2290,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -2351,7 +2351,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/xt_wdt_hal.c.obj
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/hal/esp32c3/include/hal/xt_wdt_ll.h

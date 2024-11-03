@@ -1,6 +1,6 @@
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/riscv/port.c.obj: \
  /Users/kkz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/port.c \
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h \
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/string.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/_ansi.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/newlib.h \

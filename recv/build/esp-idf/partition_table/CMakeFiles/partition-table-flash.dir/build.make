@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/recv
+CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/esp-csi/recv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build
 
 # Utility rule file for partition-table-flash.
 
@@ -67,7 +67,7 @@ include esp-idf/partition_table/CMakeFiles/partition-table-flash.dir/compiler_de
 include esp-idf/partition_table/CMakeFiles/partition-table-flash.dir/progress.make
 
 esp-idf/partition_table/CMakeFiles/partition-table-flash:
-	cd /Users/kkz/esp-idf/components/partition_table && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -D IDF_PATH=/Users/kkz/esp-idf -D "SERIAL_TOOL=/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python;;/Users/kkz/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32c3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@partition-table-flash_args" -D WORKING_DIRECTORY=/Users/kkz/6_sotsuken/recv/build -P /Users/kkz/esp-idf/components/esptool_py/run_serial_tool.cmake
+	cd /Users/kkz/esp-idf/components/partition_table && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -D IDF_PATH=/Users/kkz/esp-idf -D "SERIAL_TOOL=/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python;;/Users/kkz/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32c3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@partition-table-flash_args" -D WORKING_DIRECTORY=/Users/kkz/6_sotsuken/esp-csi/recv/build -P /Users/kkz/esp-idf/components/esptool_py/run_serial_tool.cmake
 
 partition-table-flash: esp-idf/partition_table/CMakeFiles/partition-table-flash
 partition-table-flash: esp-idf/partition_table/CMakeFiles/partition-table-flash.dir/build.make
@@ -78,10 +78,10 @@ esp-idf/partition_table/CMakeFiles/partition-table-flash.dir/build: partition-ta
 .PHONY : esp-idf/partition_table/CMakeFiles/partition-table-flash.dir/build
 
 esp-idf/partition_table/CMakeFiles/partition-table-flash.dir/clean:
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition-table-flash.dir/cmake_clean.cmake
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition-table-flash.dir/cmake_clean.cmake
 .PHONY : esp-idf/partition_table/CMakeFiles/partition-table-flash.dir/clean
 
 esp-idf/partition_table/CMakeFiles/partition-table-flash.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/recv /Users/kkz/esp-idf/components/partition_table /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table/CMakeFiles/partition-table-flash.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/esp-idf/components/partition_table /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table/CMakeFiles/partition-table-flash.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/partition_table/CMakeFiles/partition-table-flash.dir/depend
 

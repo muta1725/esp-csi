@@ -18,7 +18,7 @@ esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth.c.obj: \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/machine/ieeefp.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/_ansi.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/_locale.h \
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h \
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h \
  /Users/kkz/esp-idf/components/esp_rom/include/esp_rom_sys.h \
  /Users/kkz/esp-idf/components/soc/esp32c3/include/soc/reset_reasons.h \
  /Users/kkz/esp-idf/components/log/include/esp_log_level.h \

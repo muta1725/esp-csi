@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/kkz/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build/bootloader
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader
 
 # Utility rule file for efuse_test_table.
 
@@ -67,7 +67,7 @@ include esp-idf/efuse/CMakeFiles/efuse_test_table.dir/compiler_depend.make
 include esp-idf/efuse/CMakeFiles/efuse_test_table.dir/progress.make
 
 esp-idf/efuse/CMakeFiles/efuse_test_table:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader/esp-idf/efuse && /Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python /Users/kkz/esp-idf/components/efuse/efuse_table_gen.py /Users/kkz/esp-idf/components/efuse/test/esp_efuse_test_table.csv -t esp32c3 --max_blk_len 256
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/efuse && /Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python /Users/kkz/esp-idf/components/efuse/efuse_table_gen.py /Users/kkz/esp-idf/components/efuse/test/esp_efuse_test_table.csv -t esp32c3 --max_blk_len 256
 
 efuse_test_table: esp-idf/efuse/CMakeFiles/efuse_test_table
 efuse_test_table: esp-idf/efuse/CMakeFiles/efuse_test_table.dir/build.make
@@ -78,10 +78,10 @@ esp-idf/efuse/CMakeFiles/efuse_test_table.dir/build: efuse_test_table
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_test_table.dir/build
 
 esp-idf/efuse/CMakeFiles/efuse_test_table.dir/clean:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse_test_table.dir/cmake_clean.cmake
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse_test_table.dir/cmake_clean.cmake
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_test_table.dir/clean
 
 esp-idf/efuse/CMakeFiles/efuse_test_table.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/esp-idf/components/efuse /Users/kkz/6_sotsuken/recv/build/bootloader /Users/kkz/6_sotsuken/recv/build/bootloader/esp-idf/efuse /Users/kkz/6_sotsuken/recv/build/bootloader/esp-idf/efuse/CMakeFiles/efuse_test_table.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/esp-idf/components/efuse /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/efuse /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/efuse/CMakeFiles/efuse_test_table.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_test_table.dir/depend
 

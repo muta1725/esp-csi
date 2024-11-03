@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/recv
+CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/esp-csi/recv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build
 
 # Utility rule file for encrypted-flash.
 
@@ -84,6 +84,6 @@ CMakeFiles/encrypted-flash.dir/clean:
 .PHONY : CMakeFiles/encrypted-flash.dir/clean
 
 CMakeFiles/encrypted-flash.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/recv /Users/kkz/6_sotsuken/recv /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build/CMakeFiles/encrypted-flash.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles/encrypted-flash.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/encrypted-flash.dir/depend
 

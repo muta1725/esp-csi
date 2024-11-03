@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kkz/6_sotsuken/recv/main
+# Install script for directory: /Users/kkz/6_sotsuken/esp-csi/recv/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/kkz/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build/bootloader
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /Users/kkz/6_sotsuken/recv/build/bootloader/CMakeFiles /Users/kkz/6_sotsuken/recv/build/bootloader/esp-idf/log//CMakeFiles/progress.marks
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kkz/6_sotsuken/recv/build/bootloader/CMakeFiles 0
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/log//CMakeFiles/progress.marks
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/clean
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/preinstall
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/preinstall
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/log/CMakeFiles/__idf_log.dir/rule:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/CMakeFiles/__idf_log.dir/rule
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/CMakeFiles/__idf_log.dir/rule
 .PHONY : esp-idf/log/CMakeFiles/__idf_log.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ __idf_log: esp-idf/log/CMakeFiles/__idf_log.dir/rule
 
 # fast build rule for target.
 __idf_log/fast:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/build
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/build
 .PHONY : __idf_log/fast
 
 src/log_timestamp_common.obj: src/log_timestamp_common.c.obj
@@ -135,7 +135,7 @@ src/log_timestamp_common.obj: src/log_timestamp_common.c.obj
 
 # target to build an object file
 src/log_timestamp_common.c.obj:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.obj
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.obj
 .PHONY : src/log_timestamp_common.c.obj
 
 src/log_timestamp_common.i: src/log_timestamp_common.c.i
@@ -143,7 +143,7 @@ src/log_timestamp_common.i: src/log_timestamp_common.c.i
 
 # target to preprocess a source file
 src/log_timestamp_common.c.i:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.i
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.i
 .PHONY : src/log_timestamp_common.c.i
 
 src/log_timestamp_common.s: src/log_timestamp_common.c.s
@@ -151,7 +151,7 @@ src/log_timestamp_common.s: src/log_timestamp_common.c.s
 
 # target to generate assembly for a file
 src/log_timestamp_common.c.s:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.s
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.s
 .PHONY : src/log_timestamp_common.c.s
 
 src/noos/log_lock.obj: src/noos/log_lock.c.obj
@@ -159,7 +159,7 @@ src/noos/log_lock.obj: src/noos/log_lock.c.obj
 
 # target to build an object file
 src/noos/log_lock.c.obj:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.obj
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.obj
 .PHONY : src/noos/log_lock.c.obj
 
 src/noos/log_lock.i: src/noos/log_lock.c.i
@@ -167,7 +167,7 @@ src/noos/log_lock.i: src/noos/log_lock.c.i
 
 # target to preprocess a source file
 src/noos/log_lock.c.i:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.i
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.i
 .PHONY : src/noos/log_lock.c.i
 
 src/noos/log_lock.s: src/noos/log_lock.c.s
@@ -175,7 +175,7 @@ src/noos/log_lock.s: src/noos/log_lock.c.s
 
 # target to generate assembly for a file
 src/noos/log_lock.c.s:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.s
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.s
 .PHONY : src/noos/log_lock.c.s
 
 src/noos/log_timestamp.obj: src/noos/log_timestamp.c.obj
@@ -183,7 +183,7 @@ src/noos/log_timestamp.obj: src/noos/log_timestamp.c.obj
 
 # target to build an object file
 src/noos/log_timestamp.c.obj:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.obj
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.obj
 .PHONY : src/noos/log_timestamp.c.obj
 
 src/noos/log_timestamp.i: src/noos/log_timestamp.c.i
@@ -191,7 +191,7 @@ src/noos/log_timestamp.i: src/noos/log_timestamp.c.i
 
 # target to preprocess a source file
 src/noos/log_timestamp.c.i:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.i
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.i
 .PHONY : src/noos/log_timestamp.c.i
 
 src/noos/log_timestamp.s: src/noos/log_timestamp.c.s
@@ -199,7 +199,7 @@ src/noos/log_timestamp.s: src/noos/log_timestamp.c.s
 
 # target to generate assembly for a file
 src/noos/log_timestamp.c.s:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.s
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.s
 .PHONY : src/noos/log_timestamp.c.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,5 +1,5 @@
 esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj: \
- /Users/kkz/6_sotsuken/recv/main/app_main.c \
+ /Users/kkz/6_sotsuken/esp-csi/recv/main/app_main.c \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/stdio.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/_ansi.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/newlib.h \
@@ -18,7 +18,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj: \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/machine/_types.h \
  /Users/kkz/esp-idf/components/newlib/platform_include/sys/lock.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h \
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h \
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h \
  /Users/kkz/esp-idf/components/newlib/platform_include/assert.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/stdlib.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/machine/stdlib.h \

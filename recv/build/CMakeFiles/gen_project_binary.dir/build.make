@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/recv
+CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/esp-csi/recv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build
 
 # Utility rule file for gen_project_binary.
 
@@ -69,10 +69,10 @@ include CMakeFiles/gen_project_binary.dir/progress.make
 CMakeFiles/gen_project_binary: .bin_timestamp
 
 .bin_timestamp: recv.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
-	/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python /Users/kkz/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32c3 elf2image --flash_mode dio --flash_freq 80m --flash_size 2MB --elf-sha256-offset 0xb0 --min-rev 3 --min-rev-full 3 --max-rev-full 199 -o /Users/kkz/6_sotsuken/recv/build/recv.bin /Users/kkz/6_sotsuken/recv/build/recv.elf
-	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo "Generated /Users/kkz/6_sotsuken/recv/build/recv.bin"
-	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E md5sum /Users/kkz/6_sotsuken/recv/build/recv.bin > /Users/kkz/6_sotsuken/recv/build/.bin_timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
+	/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python /Users/kkz/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32c3 elf2image --flash_mode dio --flash_freq 80m --flash_size 2MB --elf-sha256-offset 0xb0 --min-rev 3 --min-rev-full 3 --max-rev-full 199 -o /Users/kkz/6_sotsuken/esp-csi/recv/build/recv.bin /Users/kkz/6_sotsuken/esp-csi/recv/build/recv.elf
+	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo "Generated /Users/kkz/6_sotsuken/esp-csi/recv/build/recv.bin"
+	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E md5sum /Users/kkz/6_sotsuken/esp-csi/recv/build/recv.bin > /Users/kkz/6_sotsuken/esp-csi/recv/build/.bin_timestamp
 
 gen_project_binary: .bin_timestamp
 gen_project_binary: CMakeFiles/gen_project_binary
@@ -88,6 +88,6 @@ CMakeFiles/gen_project_binary.dir/clean:
 .PHONY : CMakeFiles/gen_project_binary.dir/clean
 
 CMakeFiles/gen_project_binary.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/recv /Users/kkz/6_sotsuken/recv /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build/CMakeFiles/gen_project_binary.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles/gen_project_binary.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/gen_project_binary.dir/depend
 

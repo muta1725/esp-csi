@@ -1,6 +1,6 @@
 esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread.c.obj: \
  /Users/kkz/esp-idf/components/pthread/pthread.c \
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h \
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h \
  /Users/kkz/esp-idf/components/newlib/platform_include/time.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/types.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/_ansi.h \

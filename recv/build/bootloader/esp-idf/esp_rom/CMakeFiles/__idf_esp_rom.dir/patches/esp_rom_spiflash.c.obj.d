@@ -1,6 +1,6 @@
 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj: \
  /Users/kkz/esp-idf/components/esp_rom/patches/esp_rom_spiflash.c \
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h \
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h \
  /Users/kkz/esp-idf/components/soc/include/soc/spi_periph.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/13.2.0/include/stdint.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/stdint.h \

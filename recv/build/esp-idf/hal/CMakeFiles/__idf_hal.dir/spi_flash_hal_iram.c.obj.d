@@ -1,6 +1,6 @@
 esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_iram.c.obj: \
  /Users/kkz/esp-idf/components/hal/spi_flash_hal_iram.c \
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h \
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h \
  /Users/kkz/esp-idf/components/hal/include/hal/spi_flash_hal.h \
  /Users/kkz/esp-idf/components/hal/esp32c3/include/hal/spi_flash_ll.h \
  /Users/kkz/esp-idf/components/hal/esp32c3/include/hal/gpspi_flash_ll.h \

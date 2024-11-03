@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/recv
+CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/esp-csi/recv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build
 
 # Utility rule file for bootloader.
 
@@ -76,47 +76,47 @@ CMakeFiles/bootloader-complete: bootloader-prefix/src/bootloader-stamp/bootloade
 CMakeFiles/bootloader-complete: bootloader-prefix/src/bootloader-stamp/bootloader-configure
 CMakeFiles/bootloader-complete: bootloader-prefix/src/bootloader-stamp/bootloader-build
 CMakeFiles/bootloader-complete: bootloader-prefix/src/bootloader-stamp/bootloader-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'bootloader'"
-	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E make_directory /Users/kkz/6_sotsuken/recv/build/CMakeFiles
-	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E touch /Users/kkz/6_sotsuken/recv/build/CMakeFiles/bootloader-complete
-	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E touch /Users/kkz/6_sotsuken/recv/build/bootloader-prefix/src/bootloader-stamp/bootloader-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'bootloader'"
+	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E make_directory /Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles
+	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E touch /Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles/bootloader-complete
+	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E touch /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader-prefix/src/bootloader-stamp/bootloader-done
 
 bootloader-prefix/src/bootloader-stamp/bootloader-build: bootloader-prefix/src/bootloader-stamp/bootloader-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'bootloader'"
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'bootloader'"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(MAKE)
 
 bootloader-prefix/src/bootloader-stamp/bootloader-configure: bootloader-prefix/tmp/bootloader-cfgcmd.txt
 bootloader-prefix/src/bootloader-stamp/bootloader-configure: bootloader-prefix/src/bootloader-stamp/bootloader-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'bootloader'"
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -DSDKCONFIG=/Users/kkz/6_sotsuken/recv/sdkconfig -DIDF_PATH=/Users/kkz/esp-idf -DIDF_TARGET=esp32c3 -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python -DEXTRA_COMPONENT_DIRS=/Users/kkz/esp-idf/components/bootloader -DPROJECT_SOURCE_DIR=/Users/kkz/6_sotsuken/recv -DIGNORE_EXTRA_COMPONENT= "-GUnix Makefiles" -S /Users/kkz/esp-idf/components/bootloader/subproject -B /Users/kkz/6_sotsuken/recv/build/bootloader
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E touch /Users/kkz/6_sotsuken/recv/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'bootloader'"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -DSDKCONFIG=/Users/kkz/6_sotsuken/esp-csi/recv/sdkconfig -DIDF_PATH=/Users/kkz/esp-idf -DIDF_TARGET=esp32c3 -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python -DEXTRA_COMPONENT_DIRS=/Users/kkz/esp-idf/components/bootloader -DPROJECT_SOURCE_DIR=/Users/kkz/6_sotsuken/esp-csi/recv -DIGNORE_EXTRA_COMPONENT= "-GUnix Makefiles" -S /Users/kkz/esp-idf/components/bootloader/subproject -B /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E touch /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure
 
 bootloader-prefix/src/bootloader-stamp/bootloader-download: bootloader-prefix/src/bootloader-stamp/bootloader-source_dirinfo.txt
 bootloader-prefix/src/bootloader-stamp/bootloader-download: bootloader-prefix/src/bootloader-stamp/bootloader-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'bootloader'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'bootloader'"
 	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo_append
-	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E touch /Users/kkz/6_sotsuken/recv/build/bootloader-prefix/src/bootloader-stamp/bootloader-download
+	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E touch /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader-prefix/src/bootloader-stamp/bootloader-download
 
 bootloader-prefix/src/bootloader-stamp/bootloader-install: bootloader-prefix/src/bootloader-stamp/bootloader-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'bootloader'"
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo_append
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'bootloader'"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo_append
 
 bootloader-prefix/src/bootloader-stamp/bootloader-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'bootloader'"
-	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -Dcfgdir= -P /Users/kkz/6_sotsuken/recv/build/bootloader-prefix/tmp/bootloader-mkdirs.cmake
-	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E touch /Users/kkz/6_sotsuken/recv/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'bootloader'"
+	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -Dcfgdir= -P /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader-prefix/tmp/bootloader-mkdirs.cmake
+	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E touch /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir
 
 bootloader-prefix/src/bootloader-stamp/bootloader-patch: bootloader-prefix/src/bootloader-stamp/bootloader-patch-info.txt
 bootloader-prefix/src/bootloader-stamp/bootloader-patch: bootloader-prefix/src/bootloader-stamp/bootloader-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'bootloader'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'bootloader'"
 	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo_append
-	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E touch /Users/kkz/6_sotsuken/recv/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch
+	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E touch /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch
 
 bootloader-prefix/src/bootloader-stamp/bootloader-update: bootloader-prefix/src/bootloader-stamp/bootloader-update-info.txt
 bootloader-prefix/src/bootloader-stamp/bootloader-update: bootloader-prefix/src/bootloader-stamp/bootloader-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'bootloader'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'bootloader'"
 	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo_append
-	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E touch /Users/kkz/6_sotsuken/recv/build/bootloader-prefix/src/bootloader-stamp/bootloader-update
+	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E touch /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader-prefix/src/bootloader-stamp/bootloader-update
 
 bootloader: CMakeFiles/bootloader
 bootloader: CMakeFiles/bootloader-complete
@@ -139,6 +139,6 @@ CMakeFiles/bootloader.dir/clean:
 .PHONY : CMakeFiles/bootloader.dir/clean
 
 CMakeFiles/bootloader.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/recv /Users/kkz/6_sotsuken/recv /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build/CMakeFiles/bootloader.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles/bootloader.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/bootloader.dir/depend
 

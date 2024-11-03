@@ -8,7 +8,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/_intsup.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/_stdint.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/13.2.0/include/stddef.h \
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h \
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h \
  /Users/kkz/esp-idf/components/bootloader_support/private_include/bootloader_console.h \
  /Users/kkz/esp-idf/components/esp_rom/include/esp_rom_uart.h \
  /Users/kkz/esp-idf/components/hal/esp32c3/include/hal/uart_ll.h \

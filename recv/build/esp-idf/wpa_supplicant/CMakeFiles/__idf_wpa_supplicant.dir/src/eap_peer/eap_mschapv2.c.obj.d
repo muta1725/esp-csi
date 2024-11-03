@@ -1,7 +1,7 @@
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_mschapv2.c.obj: \
  /Users/kkz/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c \
  /Users/kkz/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.h \
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h \
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h \
  /Users/kkz/esp-idf/components/wpa_supplicant/src/utils/common.h \
  /Users/kkz/esp-idf/components/wpa_supplicant/port/include/os.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/types.h \

@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/kkz/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build/bootloader
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader
 
 # Utility rule file for menuconfig.
 
@@ -67,11 +67,11 @@ include CMakeFiles/menuconfig.dir/compiler_depend.make
 include CMakeFiles/menuconfig.dir/progress.make
 
 CMakeFiles/menuconfig:
-	/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python /Users/kkz/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /Users/kkz/6_sotsuken/recv/build/bootloader/config.env
-	/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /Users/kkz/esp-idf/Kconfig --sdkconfig-rename /Users/kkz/esp-idf/sdkconfig.rename --config /Users/kkz/6_sotsuken/recv/sdkconfig --env-file /Users/kkz/6_sotsuken/recv/build/bootloader/config.env --env IDF_TARGET=esp32c3 --env IDF_TOOLCHAIN=gcc --env IDF_ENV_FPGA= --env IDF_INIT_VERSION=5.4.0 --dont-write-deprecated --output config /Users/kkz/6_sotsuken/recv/sdkconfig
+	/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python /Users/kkz/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config.env
+	/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /Users/kkz/esp-idf/Kconfig --sdkconfig-rename /Users/kkz/esp-idf/sdkconfig.rename --config /Users/kkz/6_sotsuken/esp-csi/recv/sdkconfig --env-file /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config.env --env IDF_TARGET=esp32c3 --env IDF_TOOLCHAIN=gcc --env IDF_ENV_FPGA= --env IDF_INIT_VERSION=5.4.0 --dont-write-deprecated --output config /Users/kkz/6_sotsuken/esp-csi/recv/sdkconfig
 	/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python /Users/kkz/esp-idf/tools/check_term.py
-	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env COMPONENT_KCONFIGS_SOURCE_FILE=/Users/kkz/6_sotsuken/recv/build/bootloader/kconfigs.in COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE=/Users/kkz/6_sotsuken/recv/build/bootloader/kconfigs_projbuild.in KCONFIG_CONFIG=/Users/kkz/6_sotsuken/recv/sdkconfig IDF_TARGET=esp32c3 IDF_TOOLCHAIN=gcc IDF_ENV_FPGA= IDF_INIT_VERSION=5.4.0 /Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python -m menuconfig /Users/kkz/esp-idf/Kconfig
-	/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /Users/kkz/esp-idf/Kconfig --sdkconfig-rename /Users/kkz/esp-idf/sdkconfig.rename --config /Users/kkz/6_sotsuken/recv/sdkconfig --env-file /Users/kkz/6_sotsuken/recv/build/bootloader/config.env --env IDF_TARGET=esp32c3 --env IDF_TOOLCHAIN=gcc --env IDF_ENV_FPGA= --env IDF_INIT_VERSION=5.4.0 --output config /Users/kkz/6_sotsuken/recv/sdkconfig
+	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env COMPONENT_KCONFIGS_SOURCE_FILE=/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/kconfigs.in COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE=/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/kconfigs_projbuild.in KCONFIG_CONFIG=/Users/kkz/6_sotsuken/esp-csi/recv/sdkconfig IDF_TARGET=esp32c3 IDF_TOOLCHAIN=gcc IDF_ENV_FPGA= IDF_INIT_VERSION=5.4.0 /Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python -m menuconfig /Users/kkz/esp-idf/Kconfig
+	/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /Users/kkz/esp-idf/Kconfig --sdkconfig-rename /Users/kkz/esp-idf/sdkconfig.rename --config /Users/kkz/6_sotsuken/esp-csi/recv/sdkconfig --env-file /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config.env --env IDF_TARGET=esp32c3 --env IDF_TOOLCHAIN=gcc --env IDF_ENV_FPGA= --env IDF_INIT_VERSION=5.4.0 --output config /Users/kkz/6_sotsuken/esp-csi/recv/sdkconfig
 
 menuconfig: CMakeFiles/menuconfig
 menuconfig: CMakeFiles/menuconfig.dir/build.make
@@ -86,6 +86,6 @@ CMakeFiles/menuconfig.dir/clean:
 .PHONY : CMakeFiles/menuconfig.dir/clean
 
 CMakeFiles/menuconfig.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/6_sotsuken/recv/build/bootloader /Users/kkz/6_sotsuken/recv/build/bootloader /Users/kkz/6_sotsuken/recv/build/bootloader/CMakeFiles/menuconfig.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/menuconfig.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/menuconfig.dir/depend
 

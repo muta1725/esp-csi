@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/kkz/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build/bootloader
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader
 
 # Utility rule file for merge-bin.
 
@@ -67,7 +67,7 @@ include CMakeFiles/merge-bin.dir/compiler_depend.make
 include CMakeFiles/merge-bin.dir/progress.make
 
 CMakeFiles/merge-bin: bootloader
-	cd /Users/kkz/esp-idf/components/esptool_py && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -D IDF_PATH=/Users/kkz/esp-idf -D "SERIAL_TOOL=/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python;;/Users/kkz/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32c3" -D "SERIAL_TOOL_ARGS=merge_bin;-o;/Users/kkz/6_sotsuken/recv/build/bootloader/merged-binary.bin;@/Users/kkz/6_sotsuken/recv/build/bootloader/flash_args" -D WORKING_DIRECTORY=/Users/kkz/6_sotsuken/recv/build/bootloader -P run_serial_tool.cmake
+	cd /Users/kkz/esp-idf/components/esptool_py && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -D IDF_PATH=/Users/kkz/esp-idf -D "SERIAL_TOOL=/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python;;/Users/kkz/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32c3" -D "SERIAL_TOOL_ARGS=merge_bin;-o;/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/merged-binary.bin;@/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/flash_args" -D WORKING_DIRECTORY=/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader -P run_serial_tool.cmake
 
 merge-bin: CMakeFiles/merge-bin
 merge-bin: CMakeFiles/merge-bin.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/merge-bin.dir/clean:
 .PHONY : CMakeFiles/merge-bin.dir/clean
 
 CMakeFiles/merge-bin.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/6_sotsuken/recv/build/bootloader /Users/kkz/6_sotsuken/recv/build/bootloader /Users/kkz/6_sotsuken/recv/build/bootloader/CMakeFiles/merge-bin.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/merge-bin.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/merge-bin.dir/depend
 

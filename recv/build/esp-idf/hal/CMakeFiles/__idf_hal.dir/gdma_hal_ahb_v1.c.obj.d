@@ -2,7 +2,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_ahb_v1.c.obj: \
  /Users/kkz/esp-idf/components/hal/gdma_hal_ahb_v1.c \
  /Users/kkz/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
  /Users/kkz/esp-idf/components/hal/platform_port/include/hal/assert.h \
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h \
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h \
  /Users/kkz/esp-idf/components/hal/include/hal/gdma_hal_ahb.h \
  /Users/kkz/esp-idf/components/hal/include/hal/gdma_hal.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/13.2.0/include/stdbool.h \

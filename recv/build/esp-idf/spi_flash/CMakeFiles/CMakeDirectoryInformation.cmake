@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/Users/kkz/esp-idf")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/kkz/6_sotsuken/recv/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/kkz/6_sotsuken/esp-csi/recv/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

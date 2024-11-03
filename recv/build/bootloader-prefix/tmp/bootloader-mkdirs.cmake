@@ -10,18 +10,18 @@ if(NOT EXISTS "/Users/kkz/esp-idf/components/bootloader/subproject")
   file(MAKE_DIRECTORY "/Users/kkz/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "/Users/kkz/6_sotsuken/recv/build/bootloader"
-  "/Users/kkz/6_sotsuken/recv/build/bootloader-prefix"
-  "/Users/kkz/6_sotsuken/recv/build/bootloader-prefix/tmp"
-  "/Users/kkz/6_sotsuken/recv/build/bootloader-prefix/src/bootloader-stamp"
-  "/Users/kkz/6_sotsuken/recv/build/bootloader-prefix/src"
-  "/Users/kkz/6_sotsuken/recv/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader"
+  "/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader-prefix"
+  "/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader-prefix/tmp"
+  "/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader-prefix/src"
+  "/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/kkz/6_sotsuken/recv/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/kkz/6_sotsuken/recv/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

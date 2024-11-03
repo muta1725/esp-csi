@@ -12,7 +12,7 @@ esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m/p256-m.c.obj
  /Users/kkz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h \
  /Users/kkz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h \
  /Users/kkz/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h \
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h \
  /Users/kkz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h \
  /Users/kkz/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
  /Users/kkz/esp-idf/components/mbedtls/port/include/esp_mem.h \

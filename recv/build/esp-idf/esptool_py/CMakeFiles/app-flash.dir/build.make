@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/recv
+CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/esp-csi/recv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build
 
 # Utility rule file for app-flash.
 
@@ -67,7 +67,7 @@ include esp-idf/esptool_py/CMakeFiles/app-flash.dir/compiler_depend.make
 include esp-idf/esptool_py/CMakeFiles/app-flash.dir/progress.make
 
 esp-idf/esptool_py/CMakeFiles/app-flash:
-	cd /Users/kkz/esp-idf/components/esptool_py && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -D IDF_PATH=/Users/kkz/esp-idf -D "SERIAL_TOOL=/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python;;/Users/kkz/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32c3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@app-flash_args" -D WORKING_DIRECTORY=/Users/kkz/6_sotsuken/recv/build -P /Users/kkz/esp-idf/components/esptool_py/run_serial_tool.cmake
+	cd /Users/kkz/esp-idf/components/esptool_py && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -D IDF_PATH=/Users/kkz/esp-idf -D "SERIAL_TOOL=/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python;;/Users/kkz/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32c3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@app-flash_args" -D WORKING_DIRECTORY=/Users/kkz/6_sotsuken/esp-csi/recv/build -P /Users/kkz/esp-idf/components/esptool_py/run_serial_tool.cmake
 
 app-flash: esp-idf/esptool_py/CMakeFiles/app-flash
 app-flash: esp-idf/esptool_py/CMakeFiles/app-flash.dir/build.make
@@ -78,10 +78,10 @@ esp-idf/esptool_py/CMakeFiles/app-flash.dir/build: app-flash
 .PHONY : esp-idf/esptool_py/CMakeFiles/app-flash.dir/build
 
 esp-idf/esptool_py/CMakeFiles/app-flash.dir/clean:
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/esptool_py && $(CMAKE_COMMAND) -P CMakeFiles/app-flash.dir/cmake_clean.cmake
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esptool_py && $(CMAKE_COMMAND) -P CMakeFiles/app-flash.dir/cmake_clean.cmake
 .PHONY : esp-idf/esptool_py/CMakeFiles/app-flash.dir/clean
 
 esp-idf/esptool_py/CMakeFiles/app-flash.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/recv /Users/kkz/esp-idf/components/esptool_py /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build/esp-idf/esptool_py /Users/kkz/6_sotsuken/recv/build/esp-idf/esptool_py/CMakeFiles/app-flash.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/esp-idf/components/esptool_py /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esptool_py /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esptool_py/CMakeFiles/app-flash.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/esptool_py/CMakeFiles/app-flash.dir/depend
 

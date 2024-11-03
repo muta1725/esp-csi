@@ -15,7 +15,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal_common.c.obj: \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/machine/_types.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/machine/_endian.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/machine/param.h \
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h \
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h \
  /Users/kkz/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
  /Users/kkz/esp-idf/components/hal/include/hal/adc_hal_common.h \
  /Users/kkz/esp-idf/components/hal/include/hal/adc_types.h \

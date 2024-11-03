@@ -38,7 +38,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_fl
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h
@@ -144,7 +144,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_fl
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_config.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h
@@ -255,7 +255,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_fl
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_config.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h
@@ -346,7 +346,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -406,7 +406,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/features.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/esp_hw_support/port/esp32c3/include/soc/rtc.h
@@ -454,7 +454,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h
@@ -563,7 +563,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h
@@ -671,7 +671,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/private_include/bootloader_console.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
@@ -745,7 +745,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/private_include/bootloader_console.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
@@ -801,7 +801,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/include/bootloader_common.h
  /Users/kkz/esp-idf/components/bootloader_support/include/esp_app_format.h
  /Users/kkz/esp-idf/components/bootloader_support/include/esp_flash_partitions.h
@@ -866,7 +866,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_config.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h
@@ -991,7 +991,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/include/bootloader_mem.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
@@ -1054,7 +1054,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/include/bootloader_common.h
  /Users/kkz/esp-idf/components/bootloader_support/include/esp_app_format.h
  /Users/kkz/esp-idf/components/bootloader_support/include/esp_flash_partitions.h
@@ -1126,7 +1126,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/include/bootloader_random.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h
@@ -1187,7 +1187,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/features.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/include/bootloader_random.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1252,7 +1252,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h
@@ -1408,7 +1408,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32c3/b
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_config.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h
@@ -1558,7 +1558,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32c3/b
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/private_include/bootloader_sha.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_compiler.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_err.h
@@ -1593,7 +1593,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32c3/b
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/features.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/lock.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_assert.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_bit_defs.h
  /Users/kkz/esp-idf/components/newlib/platform_include/assert.h
@@ -1640,7 +1640,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/syslimits.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h
  /Users/kkz/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h
@@ -1766,7 +1766,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_enc
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/include/esp_app_format.h
  /Users/kkz/esp-idf/components/bootloader_support/include/esp_flash_encrypt.h
  /Users/kkz/esp-idf/components/bootloader_support/include/esp_flash_partitions.h
@@ -1842,7 +1842,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_par
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/include/esp_flash_partitions.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_compiler.h
  /Users/kkz/esp-idf/components/esp_common/include/esp_err.h
@@ -1893,7 +1893,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_bo
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/reent.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/stdio.h
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/string.h
- /Users/kkz/6_sotsuken/recv/build/bootloader/config/sdkconfig.h
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/config/sdkconfig.h
  /Users/kkz/esp-idf/components/bootloader_support/include/esp_app_format.h
  /Users/kkz/esp-idf/components/bootloader_support/include/esp_flash_partitions.h
  /Users/kkz/esp-idf/components/bootloader_support/include/esp_image_format.h

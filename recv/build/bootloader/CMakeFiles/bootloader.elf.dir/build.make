@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/kkz/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build/bootloader
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader
 
 # Include any dependencies generated for this target.
 include CMakeFiles/bootloader.elf.dir/depend.make
@@ -70,22 +70,22 @@ include CMakeFiles/bootloader.elf.dir/progress.make
 include CMakeFiles/bootloader.elf.dir/flags.make
 
 project_elf_src_esp32c3.c:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/recv/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src_esp32c3.c"
-	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E touch /Users/kkz/6_sotsuken/recv/build/bootloader/project_elf_src_esp32c3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src_esp32c3.c"
+	/opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E touch /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/project_elf_src_esp32c3.c
 
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj: CMakeFiles/bootloader.elf.dir/flags.make
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj: project_elf_src_esp32c3.c
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj: CMakeFiles/bootloader.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kkz/6_sotsuken/recv/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj"
-	/Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj -MF CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj.d -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj -c /Users/kkz/6_sotsuken/recv/build/bootloader/project_elf_src_esp32c3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj"
+	/Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj -MF CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj.d -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj -c /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/project_elf_src_esp32c3.c
 
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.i"
-	/Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kkz/6_sotsuken/recv/build/bootloader/project_elf_src_esp32c3.c > CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.i
+	/Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/project_elf_src_esp32c3.c > CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.i
 
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.s"
-	/Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kkz/6_sotsuken/recv/build/bootloader/project_elf_src_esp32c3.c -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.s
+	/Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/project_elf_src_esp32c3.c -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.s
 
 # Object files for target bootloader.elf
 bootloader_elf_OBJECTS = \
@@ -167,7 +167,7 @@ bootloader.elf: /Users/kkz/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.new
 bootloader.elf: /Users/kkz/esp-idf/components/bootloader/subproject/main/ld/esp32c3/bootloader.ld
 bootloader.elf: /Users/kkz/esp-idf/components/bootloader/subproject/main/ld/esp32c3/bootloader.rom.ld
 bootloader.elf: CMakeFiles/bootloader.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kkz/6_sotsuken/recv/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable bootloader.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable bootloader.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bootloader.elf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -179,6 +179,6 @@ CMakeFiles/bootloader.elf.dir/clean:
 .PHONY : CMakeFiles/bootloader.elf.dir/clean
 
 CMakeFiles/bootloader.elf.dir/depend: project_elf_src_esp32c3.c
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/6_sotsuken/recv/build/bootloader /Users/kkz/6_sotsuken/recv/build/bootloader /Users/kkz/6_sotsuken/recv/build/bootloader/CMakeFiles/bootloader.elf.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/bootloader.elf.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/bootloader.elf.dir/depend
 

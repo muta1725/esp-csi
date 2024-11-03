@@ -1,7 +1,7 @@
 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_trace.c.obj: \
  /Users/kkz/esp-idf/components/esp_pm/pm_trace.c \
  /Users/kkz/esp-idf/components/esp_common/include/esp_attr.h \
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h \
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h \
  /Users/kkz/esp-idf/components/esp_pm/include/esp_private/pm_trace.h \
  /Users/kkz/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/stdio.h \

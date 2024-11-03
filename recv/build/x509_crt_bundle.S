@@ -1,4 +1,4 @@
-/* * Data converted from /Users/kkz/6_sotsuken/recv/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

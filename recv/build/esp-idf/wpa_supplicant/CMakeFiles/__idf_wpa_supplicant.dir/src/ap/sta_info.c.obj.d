@@ -2,7 +2,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/sta_info.c.obj
  /Users/kkz/esp-idf/components/wpa_supplicant/src/ap/sta_info.c \
  /Users/kkz/esp-idf/components/wpa_supplicant/src/utils/includes.h \
  /Users/kkz/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h \
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h \
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h \
  /Users/kkz/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h \
  /Users/kkz/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/13.2.0/include/stddef.h \

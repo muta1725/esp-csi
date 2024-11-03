@@ -2,7 +2,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/kkz/esp-idf/comp
  /Users/kkz/esp-idf/components/mbedtls/port/esp_timing.c \
  /Users/kkz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h \
  /Users/kkz/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h \
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h \
  /Users/kkz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h \
  /Users/kkz/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
  /Users/kkz/esp-idf/components/mbedtls/port/include/esp_mem.h \

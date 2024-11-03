@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/recv
+CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/esp-csi/recv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build
 
 # Utility rule file for partition-table.
 
@@ -67,10 +67,10 @@ include esp-idf/partition_table/CMakeFiles/partition-table.dir/compiler_depend.m
 include esp-idf/partition_table/CMakeFiles/partition-table.dir/progress.make
 
 esp-idf/partition_table/CMakeFiles/partition-table:
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo "Partition table binary generated. Contents:"
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo "*******************************************************************************"
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table && /Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python /Users/kkz/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 2MB -- /Users/kkz/6_sotsuken/recv/build/partition_table/partition-table.bin
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo "*******************************************************************************"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo "Partition table binary generated. Contents:"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo "*******************************************************************************"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table && /Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python /Users/kkz/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 2MB -- /Users/kkz/6_sotsuken/esp-csi/recv/build/partition_table/partition-table.bin
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo "*******************************************************************************"
 
 partition-table: esp-idf/partition_table/CMakeFiles/partition-table
 partition-table: esp-idf/partition_table/CMakeFiles/partition-table.dir/build.make
@@ -81,10 +81,10 @@ esp-idf/partition_table/CMakeFiles/partition-table.dir/build: partition-table
 .PHONY : esp-idf/partition_table/CMakeFiles/partition-table.dir/build
 
 esp-idf/partition_table/CMakeFiles/partition-table.dir/clean:
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition-table.dir/cmake_clean.cmake
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition-table.dir/cmake_clean.cmake
 .PHONY : esp-idf/partition_table/CMakeFiles/partition-table.dir/clean
 
 esp-idf/partition_table/CMakeFiles/partition-table.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/recv /Users/kkz/esp-idf/components/partition_table /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table/CMakeFiles/partition-table.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/esp-idf/components/partition_table /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table/CMakeFiles/partition-table.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/partition_table/CMakeFiles/partition-table.dir/depend
 

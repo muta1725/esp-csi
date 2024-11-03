@@ -14,7 +14,7 @@ esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/riscv/rv_decode.c.
  /Users/kkz/esp-idf/components/esp_gdbstub/src/port/riscv/include/esp_gdbstub_arch.h \
  /Users/kkz/esp-idf/components/riscv/include/riscv/rvruntime-frames.h \
  /Users/kkz/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h \
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h \
  /Users/kkz/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
  /Users/kkz/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
  /Users/kkz/esp-idf/components/newlib/platform_include/assert.h \

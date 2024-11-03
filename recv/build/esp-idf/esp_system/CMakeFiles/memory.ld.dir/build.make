@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/recv
+CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/esp-csi/recv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build
 
 # Utility rule file for memory.ld.
 
@@ -70,8 +70,8 @@ esp-idf/esp_system/CMakeFiles/memory.ld: esp-idf/esp_system/ld/memory.ld
 
 esp-idf/esp_system/ld/memory.ld: /Users/kkz/esp-idf/components/esp_system/ld/esp32c3/memory.ld.in
 esp-idf/esp_system/ld/memory.ld: config/sdkconfig.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /Users/kkz/6_sotsuken/recv/build/esp-idf/esp_system/ld/memory.ld linker script..."
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/esp_system && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -DCC=/Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -DSOURCE=/Users/kkz/esp-idf/components/esp_system/ld/esp32c3/memory.ld.in -DTARGET=/Users/kkz/6_sotsuken/recv/build/esp-idf/esp_system/ld/memory.ld -DCONFIG_DIR=/Users/kkz/6_sotsuken/recv/build/config -DLD_DIR=/Users/kkz/esp-idf/components/esp_system/ld -P /Users/kkz/6_sotsuken/recv/build/esp-idf/esp_system/ld/linker_script_generator.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esp_system/ld/memory.ld linker script..."
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esp_system && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -DCC=/Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -DSOURCE=/Users/kkz/esp-idf/components/esp_system/ld/esp32c3/memory.ld.in -DTARGET=/Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esp_system/ld/memory.ld -DCONFIG_DIR=/Users/kkz/6_sotsuken/esp-csi/recv/build/config -DLD_DIR=/Users/kkz/esp-idf/components/esp_system/ld -P /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esp_system/ld/linker_script_generator.cmake
 
 memory.ld: esp-idf/esp_system/CMakeFiles/memory.ld
 memory.ld: esp-idf/esp_system/ld/memory.ld
@@ -83,10 +83,10 @@ esp-idf/esp_system/CMakeFiles/memory.ld.dir/build: memory.ld
 .PHONY : esp-idf/esp_system/CMakeFiles/memory.ld.dir/build
 
 esp-idf/esp_system/CMakeFiles/memory.ld.dir/clean:
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/esp_system && $(CMAKE_COMMAND) -P CMakeFiles/memory.ld.dir/cmake_clean.cmake
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esp_system && $(CMAKE_COMMAND) -P CMakeFiles/memory.ld.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp_system/CMakeFiles/memory.ld.dir/clean
 
 esp-idf/esp_system/CMakeFiles/memory.ld.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/recv /Users/kkz/esp-idf/components/esp_system /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build/esp-idf/esp_system /Users/kkz/6_sotsuken/recv/build/esp-idf/esp_system/CMakeFiles/memory.ld.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/esp-idf/components/esp_system /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esp_system /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esp_system/CMakeFiles/memory.ld.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/esp_system/CMakeFiles/memory.ld.dir/depend
 

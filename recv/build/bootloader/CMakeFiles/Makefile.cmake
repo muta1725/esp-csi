@@ -14,7 +14,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/git-data/grabRef.cmake"
   "config/sdkconfig.cmake"
   "config/sdkconfig.h"
-  "/Users/kkz/6_sotsuken/recv/sdkconfig"
+  "/Users/kkz/6_sotsuken/esp-csi/recv/sdkconfig"
   "/Users/kkz/esp-idf/.git/HEAD"
   "/Users/kkz/esp-idf/.git/modules/components/bootloader/subproject/components/micro-ecc/micro-ecc/HEAD"
   "/Users/kkz/esp-idf/.git/modules/components/bt/controller/lib_esp32/HEAD"

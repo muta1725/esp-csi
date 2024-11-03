@@ -5,7 +5,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
  /Users/kkz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/private_access.h \
  /Users/kkz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h \
  /Users/kkz/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h \
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h \
  /Users/kkz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h \
  /Users/kkz/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h \
  /Users/kkz/esp-idf/components/mbedtls/port/include/esp_mem.h \

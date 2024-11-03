@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/recv
+CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/esp-csi/recv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build
 
 # Utility rule file for partition_table.
 
@@ -67,8 +67,8 @@ include esp-idf/partition_table/CMakeFiles/partition_table.dir/compiler_depend.m
 include esp-idf/partition_table/CMakeFiles/partition_table.dir/progress.make
 
 esp-idf/partition_table/CMakeFiles/partition_table:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Warning: command \"partition_table\" is deprecated. Have you wanted to run \"partition-table\" instead?"
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo 
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Warning: command \"partition_table\" is deprecated. Have you wanted to run \"partition-table\" instead?"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo 
 
 partition_table: esp-idf/partition_table/CMakeFiles/partition_table
 partition_table: esp-idf/partition_table/CMakeFiles/partition_table.dir/build.make
@@ -79,10 +79,10 @@ esp-idf/partition_table/CMakeFiles/partition_table.dir/build: partition_table
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table.dir/build
 
 esp-idf/partition_table/CMakeFiles/partition_table.dir/clean:
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table.dir/cmake_clean.cmake
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table.dir/cmake_clean.cmake
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table.dir/clean
 
 esp-idf/partition_table/CMakeFiles/partition_table.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/recv /Users/kkz/esp-idf/components/partition_table /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table/CMakeFiles/partition_table.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/esp-idf/components/partition_table /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table/CMakeFiles/partition_table.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table.dir/depend
 

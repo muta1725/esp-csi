@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/recv
+CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/esp-csi/recv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build
 
 # Utility rule file for partition_table_bin.
 
@@ -71,12 +71,12 @@ esp-idf/partition_table/CMakeFiles/partition_table_bin: partition_table/partitio
 
 partition_table/partition-table.bin: /Users/kkz/esp-idf/components/partition_table/partitions_singleapp.csv
 partition_table/partition-table.bin: /Users/kkz/esp-idf/components/partition_table/gen_esp32part.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../partition_table/partition-table.bin"
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table && /Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python /Users/kkz/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 2MB -- /Users/kkz/esp-idf/components/partition_table/partitions_singleapp.csv /Users/kkz/6_sotsuken/recv/build/partition_table/partition-table.bin
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo "Partition table binary generated. Contents:"
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo "*******************************************************************************"
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table && /Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python /Users/kkz/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 2MB -- /Users/kkz/6_sotsuken/recv/build/partition_table/partition-table.bin
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo "*******************************************************************************"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../partition_table/partition-table.bin"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table && /Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python /Users/kkz/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 2MB -- /Users/kkz/esp-idf/components/partition_table/partitions_singleapp.csv /Users/kkz/6_sotsuken/esp-csi/recv/build/partition_table/partition-table.bin
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo "Partition table binary generated. Contents:"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo "*******************************************************************************"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table && /Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python /Users/kkz/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 2MB -- /Users/kkz/6_sotsuken/esp-csi/recv/build/partition_table/partition-table.bin
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo "*******************************************************************************"
 
 partition_table_bin: esp-idf/partition_table/CMakeFiles/partition_table_bin
 partition_table_bin: partition_table/partition-table.bin
@@ -88,10 +88,10 @@ esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/build: partition_tabl
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/build
 
 esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/clean:
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table_bin.dir/cmake_clean.cmake
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table_bin.dir/cmake_clean.cmake
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/clean
 
 esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/recv /Users/kkz/esp-idf/components/partition_table /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table /Users/kkz/6_sotsuken/recv/build/esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/esp-idf/components/partition_table /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/depend
 

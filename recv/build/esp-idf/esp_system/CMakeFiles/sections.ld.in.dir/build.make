@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/recv
+CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/esp-csi/recv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build
 
 # Utility rule file for sections.ld.in.
 
@@ -70,8 +70,8 @@ esp-idf/esp_system/CMakeFiles/sections.ld.in: esp-idf/esp_system/ld/sections.ld.
 
 esp-idf/esp_system/ld/sections.ld.in: /Users/kkz/esp-idf/components/esp_system/ld/esp32c3/sections.ld.in
 esp-idf/esp_system/ld/sections.ld.in: config/sdkconfig.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /Users/kkz/6_sotsuken/recv/build/esp-idf/esp_system/ld/sections.ld.in linker script..."
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/esp_system && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -DCC=/Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -DSOURCE=/Users/kkz/esp-idf/components/esp_system/ld/esp32c3/sections.ld.in -DTARGET=/Users/kkz/6_sotsuken/recv/build/esp-idf/esp_system/ld/sections.ld.in -DCONFIG_DIR=/Users/kkz/6_sotsuken/recv/build/config -DLD_DIR=/Users/kkz/esp-idf/components/esp_system/ld -P /Users/kkz/6_sotsuken/recv/build/esp-idf/esp_system/ld/linker_script_generator.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/esp-csi/recv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esp_system/ld/sections.ld.in linker script..."
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esp_system && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -DCC=/Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -DSOURCE=/Users/kkz/esp-idf/components/esp_system/ld/esp32c3/sections.ld.in -DTARGET=/Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esp_system/ld/sections.ld.in -DCONFIG_DIR=/Users/kkz/6_sotsuken/esp-csi/recv/build/config -DLD_DIR=/Users/kkz/esp-idf/components/esp_system/ld -P /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esp_system/ld/linker_script_generator.cmake
 
 sections.ld.in: esp-idf/esp_system/CMakeFiles/sections.ld.in
 sections.ld.in: esp-idf/esp_system/ld/sections.ld.in
@@ -83,10 +83,10 @@ esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/build: sections.ld.in
 .PHONY : esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/build
 
 esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/clean:
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/esp_system && $(CMAKE_COMMAND) -P CMakeFiles/sections.ld.in.dir/cmake_clean.cmake
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esp_system && $(CMAKE_COMMAND) -P CMakeFiles/sections.ld.in.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/clean
 
 esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/recv /Users/kkz/esp-idf/components/esp_system /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build/esp-idf/esp_system /Users/kkz/6_sotsuken/recv/build/esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/esp-idf/components/esp_system /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esp_system /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/depend
 

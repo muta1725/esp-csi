@@ -16,7 +16,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/sha_hal.c.obj: \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/queue.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/riscv32-esp-elf/include/sys/cdefs.h \
  /Users/kkz/esp-idf/components/hal/include/hal/sha_types.h \
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h \
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h \
  /Users/kkz/esp-idf/components/esp_rom/esp32c3/include/esp32c3/rom/sha.h \
  /Users/kkz/esp-idf/components/esp_rom/esp32c3/include/esp32c3/rom/ets_sys.h \
  /Users/kkz/esp-idf/components/hal/esp32c3/include/hal/sha_ll.h \

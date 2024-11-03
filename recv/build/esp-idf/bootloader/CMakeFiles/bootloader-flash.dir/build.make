@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/recv
+CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/esp-csi/recv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build
 
 # Utility rule file for bootloader-flash.
 
@@ -67,7 +67,7 @@ include esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/compiler_depend.make
 include esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/progress.make
 
 esp-idf/bootloader/CMakeFiles/bootloader-flash:
-	cd /Users/kkz/esp-idf/components/bootloader && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -D IDF_PATH=/Users/kkz/esp-idf -D "SERIAL_TOOL=/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python;;/Users/kkz/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32c3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@bootloader-flash_args" -D WORKING_DIRECTORY=/Users/kkz/6_sotsuken/recv/build -P /Users/kkz/esp-idf/components/esptool_py/run_serial_tool.cmake
+	cd /Users/kkz/esp-idf/components/bootloader && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -D IDF_PATH=/Users/kkz/esp-idf -D "SERIAL_TOOL=/Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python;;/Users/kkz/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32c3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@bootloader-flash_args" -D WORKING_DIRECTORY=/Users/kkz/6_sotsuken/esp-csi/recv/build -P /Users/kkz/esp-idf/components/esptool_py/run_serial_tool.cmake
 
 bootloader-flash: esp-idf/bootloader/CMakeFiles/bootloader-flash
 bootloader-flash: esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/build.make
@@ -78,10 +78,10 @@ esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/build: bootloader-flash
 .PHONY : esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/build
 
 esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/clean:
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/bootloader && $(CMAKE_COMMAND) -P CMakeFiles/bootloader-flash.dir/cmake_clean.cmake
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/bootloader && $(CMAKE_COMMAND) -P CMakeFiles/bootloader-flash.dir/cmake_clean.cmake
 .PHONY : esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/clean
 
 esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/recv /Users/kkz/esp-idf/components/bootloader /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build/esp-idf/bootloader /Users/kkz/6_sotsuken/recv/build/esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/esp-idf/components/bootloader /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/bootloader /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/depend
 

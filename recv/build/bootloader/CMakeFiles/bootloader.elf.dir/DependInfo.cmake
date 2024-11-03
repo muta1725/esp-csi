@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/kkz/6_sotsuken/recv/build/bootloader/project_elf_src_esp32c3.c" "CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj" "gcc" "CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj.d"
+  "/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/project_elf_src_esp32c3.c" "CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj" "gcc" "CMakeFiles/bootloader.elf.dir/project_elf_src_esp32c3.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

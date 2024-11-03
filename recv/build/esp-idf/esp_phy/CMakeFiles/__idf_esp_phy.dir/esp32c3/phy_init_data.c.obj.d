@@ -1,6 +1,6 @@
 esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/esp32c3/phy_init_data.c.obj: \
  /Users/kkz/esp-idf/components/esp_phy/esp32c3/phy_init_data.c \
- /Users/kkz/6_sotsuken/recv/build/config/sdkconfig.h \
+ /Users/kkz/6_sotsuken/esp-csi/recv/build/config/sdkconfig.h \
  /Users/kkz/esp-idf/components/esp_phy/esp32c3/include/phy_init_data.h \
  /Users/kkz/esp-idf/components/esp_phy/include/esp_phy_init.h \
  /Users/kkz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/13.2.0/include/stdint.h \

@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/kkz/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build/bootloader
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader
 
 # Utility rule file for efuse_common_table.
 
@@ -67,8 +67,8 @@ include esp-idf/efuse/CMakeFiles/efuse_common_table.dir/compiler_depend.make
 include esp-idf/efuse/CMakeFiles/efuse_common_table.dir/progress.make
 
 esp-idf/efuse/CMakeFiles/efuse_common_table:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/recv/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Warning: command \"efuse_common_table\" is deprecated. Have you wanted to run \"efuse-common-table\" instead?"
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader/esp-idf/efuse && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo 
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Warning: command \"efuse_common_table\" is deprecated. Have you wanted to run \"efuse-common-table\" instead?"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/efuse && /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E echo 
 
 efuse_common_table: esp-idf/efuse/CMakeFiles/efuse_common_table
 efuse_common_table: esp-idf/efuse/CMakeFiles/efuse_common_table.dir/build.make
@@ -79,10 +79,10 @@ esp-idf/efuse/CMakeFiles/efuse_common_table.dir/build: efuse_common_table
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_common_table.dir/build
 
 esp-idf/efuse/CMakeFiles/efuse_common_table.dir/clean:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse_common_table.dir/cmake_clean.cmake
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse_common_table.dir/cmake_clean.cmake
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_common_table.dir/clean
 
 esp-idf/efuse/CMakeFiles/efuse_common_table.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/esp-idf/components/efuse /Users/kkz/6_sotsuken/recv/build/bootloader /Users/kkz/6_sotsuken/recv/build/bootloader/esp-idf/efuse /Users/kkz/6_sotsuken/recv/build/bootloader/esp-idf/efuse/CMakeFiles/efuse_common_table.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/esp-idf/components/bootloader/subproject /Users/kkz/esp-idf/components/efuse /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/efuse /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/efuse/CMakeFiles/efuse_common_table.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_common_table.dir/depend
 

@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/recv
+CMAKE_SOURCE_DIR = /Users/kkz/6_sotsuken/esp-csi/recv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/recv/build
+CMAKE_BINARY_DIR = /Users/kkz/6_sotsuken/esp-csi/recv/build
 
 # Utility rule file for app_check_size.
 
@@ -67,7 +67,7 @@ include esp-idf/esptool_py/CMakeFiles/app_check_size.dir/compiler_depend.make
 include esp-idf/esptool_py/CMakeFiles/app_check_size.dir/progress.make
 
 esp-idf/esptool_py/CMakeFiles/app_check_size:
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/esptool_py && /Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python /Users/kkz/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/kkz/6_sotsuken/recv/build/partition_table/partition-table.bin /Users/kkz/6_sotsuken/recv/build/recv.bin
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esptool_py && /Users/kkz/.espressif/python_env/idf5.4_py3.12_env/bin/python /Users/kkz/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/kkz/6_sotsuken/esp-csi/recv/build/partition_table/partition-table.bin /Users/kkz/6_sotsuken/esp-csi/recv/build/recv.bin
 
 app_check_size: esp-idf/esptool_py/CMakeFiles/app_check_size
 app_check_size: esp-idf/esptool_py/CMakeFiles/app_check_size.dir/build.make
@@ -78,10 +78,10 @@ esp-idf/esptool_py/CMakeFiles/app_check_size.dir/build: app_check_size
 .PHONY : esp-idf/esptool_py/CMakeFiles/app_check_size.dir/build
 
 esp-idf/esptool_py/CMakeFiles/app_check_size.dir/clean:
-	cd /Users/kkz/6_sotsuken/recv/build/esp-idf/esptool_py && $(CMAKE_COMMAND) -P CMakeFiles/app_check_size.dir/cmake_clean.cmake
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esptool_py && $(CMAKE_COMMAND) -P CMakeFiles/app_check_size.dir/cmake_clean.cmake
 .PHONY : esp-idf/esptool_py/CMakeFiles/app_check_size.dir/clean
 
 esp-idf/esptool_py/CMakeFiles/app_check_size.dir/depend:
-	cd /Users/kkz/6_sotsuken/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/recv /Users/kkz/esp-idf/components/esptool_py /Users/kkz/6_sotsuken/recv/build /Users/kkz/6_sotsuken/recv/build/esp-idf/esptool_py /Users/kkz/6_sotsuken/recv/build/esp-idf/esptool_py/CMakeFiles/app_check_size.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kkz/6_sotsuken/esp-csi/recv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kkz/6_sotsuken/esp-csi/recv /Users/kkz/esp-idf/components/esptool_py /Users/kkz/6_sotsuken/esp-csi/recv/build /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esptool_py /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esptool_py/CMakeFiles/app_check_size.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/esptool_py/CMakeFiles/app_check_size.dir/depend
 

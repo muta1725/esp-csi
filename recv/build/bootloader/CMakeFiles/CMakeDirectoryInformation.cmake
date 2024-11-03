@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/Users/kkz/esp-idf/components/bootloader/subproject")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/kkz/6_sotsuken/recv/build/bootloader")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
