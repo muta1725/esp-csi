@@ -189,7 +189,7 @@ if __name__ == '__main__':
         description="Read CSI data from serial port and display it graphically")
     parser.add_argument('-p', '--port', dest='port', action='store', required=True,
                         help="Serial port number of csv_recv device")
-    parser.add_argument('-s', '--store', dest='store_file', action='store', default='./csi_data_A02.csv',
+    parser.add_argument('-s', '--store', dest='store_file', action='store', default='./csi_data_A03.csv',
                         help="Save the data printed by the serial port to a file")
     parser.add_argument('-l', '--log', dest="log_file", action="store", default="./csi_data_log.txt",
                         help="Save other serial data the bad CSI data to a log file")

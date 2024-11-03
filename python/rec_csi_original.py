@@ -177,7 +177,12 @@ class SubThread (QThread):
         super().__init__()
         self.serial_port = serial_port
 
-        save_file_fd = open(save_file_name, 'w')
+        # 修正前
+        # save_file_fd = open(save_file_name, 'w')
+
+        # 修正後（Windowsの空行問題を解決）
+        save_file_fd = open(save_file_name, 'w', newline='')
+
         self.log_file_fd = open(log_file_name, 'w')
         self.csv_writer = csv.writer(save_file_fd)
         self.csv_writer.writerow(DATA_COLUMNS_NAMES)
