@@ -457,6 +457,7 @@ SECTIONS
     * And so forth...
     */
    *(.rela.*)
+   *(.got .got.plt) /* TODO: GCC-382 */
    *(.eh_frame_hdr)
    *(.eh_frame)
   }

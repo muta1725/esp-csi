@@ -4,8 +4,6 @@
 /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/gen_project_binary.dir
 /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/app.dir
 /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/erase_flash.dir
-/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/uf2.dir
-/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/uf2-app.dir
 /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/merge-bin.dir
 /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/monitor.dir
 /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/_project_elf_src.dir
@@ -13,6 +11,8 @@
 /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/size.dir
 /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/size-files.dir
 /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/size-components.dir
+/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/uf2.dir
+/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/uf2-app.dir
 /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/edit_cache.dir
 /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/CMakeFiles/rebuild_cache.dir
 /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/CMakeFiles/edit_cache.dir
@@ -51,6 +51,8 @@
 /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/efuse/CMakeFiles/efuse_test_table.dir
 /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/efuse/CMakeFiles/edit_cache.dir
 /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/efuse/CMakeFiles/rebuild_cache.dir
+/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/esp_security/CMakeFiles/edit_cache.dir
+/Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/esp_security/CMakeFiles/rebuild_cache.dir
 /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir
 /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/esp_system/CMakeFiles/edit_cache.dir
 /Users/kkz/6_sotsuken/esp-csi/recv/build/bootloader/esp-idf/esp_system/CMakeFiles/rebuild_cache.dir

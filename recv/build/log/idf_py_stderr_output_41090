@@ -1,0 +1,6 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem1101 921600[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40384b8a: rom1_chip_i2c_writeReg at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7b90e913110a554ea260f89aef80644f5043a8e200466943ad014f413eee38b8[0m
+[0m

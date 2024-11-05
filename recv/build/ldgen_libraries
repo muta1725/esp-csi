@@ -17,6 +17,7 @@
 /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/log/liblog.a
 /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/heap/libheap.a
 /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/soc/libsoc.a
+/Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esp_security/libesp_security.a
 /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/esp_hw_support/libesp_hw_support.a
 /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/freertos/libfreertos.a
 /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/newlib/libnewlib.a
@@ -73,6 +74,7 @@
 /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/json/libjson.a
 /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/mqtt/libmqtt.a
 /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/nvs_sec_provider/libnvs_sec_provider.a
+/Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/rt/librt.a
 /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/spiffs/libspiffs.a
 /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 /Users/kkz/6_sotsuken/esp-csi/recv/build/esp-idf/main/libmain.a
