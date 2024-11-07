@@ -189,15 +189,17 @@ if __name__ == '__main__':
         description="Read CSI data from serial port and display it graphically")
     parser.add_argument('-p', '--port', dest='port', action='store', required=True,
                         help="Serial port number of csv_recv device")
-    parser.add_argument('-s', '--store', dest='store_file', action='store', default='./csi_data_E03.csv',
-                        help="Save the data printed by the serial port to a file")
     parser.add_argument('-l', '--log', dest="log_file", action="store", default="./csi_data_log.txt",
                         help="Save other serial data the bad CSI data to a log file")
 
     args = parser.parse_args()
     serial_port = args.port
-    file_name = args.store_file
     log_file_name = args.log_file
+
+    # ファイル名をユーザーに入力してもらう
+    file_name = input("生成するCSVファイルの名前を入力してください（例: csi_data）: ")
+    if not file_name.endswith(".csv"):
+        file_name += ".csv"  # .csv拡張子を自動的に追加
 
     app = QApplication(sys.argv)
 
