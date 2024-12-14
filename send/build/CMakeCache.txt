@@ -350,7 +350,7 @@ Mbed TLS_IS_TOP_LEVEL:STATIC=OFF
 Mbed TLS_SOURCE_DIR:STATIC=/Users/kkz/esp/esp-idf/components/mbedtls/mbedtls
 
 //No help, variable specified on the command line.
-PYTHON:UNINITIALIZED=/Users/kkz/.espressif/python_env/idf5.4_py3.13_env/bin/python
+PYTHON:UNINITIALIZED=/Users/kkz/.espressif/python_env/idf5.4_py3.9_env/bin/python
 
 //No help, variable specified on the command line.
 PYTHON_DEPS_CHECKED:UNINITIALIZED=1
@@ -595,7 +595,7 @@ C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS:INTERNAL=1
 //Details about finding Git
 FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/opt/homebrew/bin/git][v2.47.0()]
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/Users/kkz/.espressif/python_env/idf5.4_py3.13_env/bin/python][cfound components: Interpreter ][v3.13.0()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/Users/kkz/.espressif/python_env/idf5.4_py3.9_env/bin/python][cfound components: Interpreter ][v3.9.6()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: GIT_EXECUTABLE
@@ -606,10 +606,10 @@ _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 _Python3_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure
 _Python3_Development_REASON_FAILURE:INTERNAL=
-_Python3_EXECUTABLE:INTERNAL=/Users/kkz/.espressif/python_env/idf5.4_py3.13_env/bin/python
+_Python3_EXECUTABLE:INTERNAL=/Users/kkz/.espressif/python_env/idf5.4_py3.9_env/bin/python
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;13;0;32;64;;;abi3;/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/lib/python3.13;/Users/kkz/.espressif/python_env/idf5.4_py3.13_env/lib/python3.13;/Users/kkz/.espressif/python_env/idf5.4_py3.13_env/lib/python3.13/site-packages;/Users/kkz/.espressif/python_env/idf5.4_py3.13_env/lib/python3.13/site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=0176f845b246bc6d69b4a948decdbdfa
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;9;6;32;64;;;abi3;/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9;/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9;/Users/kkz/.espressif/python_env/idf5.4_py3.9_env/lib/python3.9/site-packages;/Users/kkz/.espressif/python_env/idf5.4_py3.9_env/lib/python3.9/site-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=c28b0fc60e2261733e0523dec6e88dde
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 
